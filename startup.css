@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+}
+
+
+
+h1{
+    text-align: left;
+    background-image: url("");
+    background-position: left top; /* Adjust position if needed */
+    background-size: cover; /* Scales the image to cover the h1 element */
+    padding: 100px;
+
+
+
+}
+h4{
+    text-align: right;
+}
+.heed {
+    background-color: aquamarine;
+    margin-bottom: 20px;
+
+}
+
+p {
+    color: black;
+    cursor: auto;
+}
+.vid{
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.questions summary {
+    cursor: pointer;
+    color: white;
+}
+
+.questions summary:hover {
+    color: red;
+}
+
+.background-clip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: max-content;
+}
+.button1{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+
+}
+.button2{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+em{
+    color: gold;
+}
+.vid h3{
+    color: pink;
+}
